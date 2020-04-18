@@ -51,6 +51,7 @@ table {
 
 * {
     box-sizing: border-box;
+    /* border:solid black 2px; */
 }
 
 html, body {
@@ -91,12 +92,13 @@ nav a {
   color: black;
   font-weight: bold;
   text-decoration: none;
-  font-size: 14px;
+  font-size: 16px;
   padding-right: 4%;   /*between letters*/
 }
 
 .jumbo-about {
     padding: 4% 0% 1%;
+    width: 100%
 }
 .about-page h2, .about-page p {
     padding-left: 4%;

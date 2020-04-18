@@ -46,9 +46,6 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-
-<!-----------This is the Beginning-----!>
-
 * {
     box-sizing: border-box;
 }
@@ -71,9 +68,7 @@ p {
 
 
 
-.title-container {     
-  
-}
+
 .Lambda {                  /*Lambda img*/
   padding: 2% 0% 0% 10%;
 }
