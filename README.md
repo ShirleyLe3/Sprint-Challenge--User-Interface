@@ -36,7 +36,7 @@ Edit this document to include your answers after each question. Make sure to lea
 
      semantic means relating to language or logic; in the same way, semantic html provides meaning and order to content. <i> tag only changes the presentation of the word, whereas <p> tags indicate the content is a paragraph in the webpage.
 
-2. Name two big differences between ```display: block;``` and ```display: inline;```.
+2. Name two big differences between display: block; and display: inline
 
      inline occupies the width it requires, while block can have set width/height and automatically start on new line
 
@@ -44,7 +44,7 @@ Edit this document to include your answers after each question. Make sure to lea
 
      content, padding, border, margin
 
-4. While using flexbox, what axis does the following property work on: ```align-items: center```?
+4. While using flexbox, what axis does the following property work on:align-items: center?
 
      cross axis (y)
 
