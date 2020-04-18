@@ -48,6 +48,7 @@ table {
 }
 * {
     box-sizing: border-box;
+    border: solid black 2px;
 }
 
 html, body {
@@ -65,19 +66,24 @@ p {
     line-height: 1.4;
 }
 
-
-
+.container {
+  margin: auto;
+}
+.nav-container {
+  width: 800px;
+  margin: auto;
+}
 
 
 .Lambda {                  /*Lambda img*/
-  padding: 2% 0% 0% 10%;
+  padding: 2% 0%;
 }
 
-.main-titles {
+.nav-titles {
   display: flex;
   justify-content: space-between; 
-  margin: 0% 0% 0% 30%; /* moves container*/
-  max-width: 50%;
+  margin: 0% 0% 0% 30%; moves container
+  width: 70%;
 }
 
 nav a {
@@ -89,12 +95,14 @@ nav a {
 }
 
 .big-image {
-    padding: 2% 0% 0% 10%;
+    padding: 2% 0%;
+    margin: auto;
 }
 
-.container {
+.main-container {
     width: 800px;
-}
+    margin: auto;
+  }
 
 .top-content {
     display: flex;
@@ -123,53 +131,53 @@ nav a {
 
 .box1  {
   background: teal;
-  width: 100%;
+  width: 100px;
   height: 100px;  
 }
 .box2  {
   background: gold;
-  width: 100%;
+  width: 100px;
   height: 100px;
 }
 .box3  {
   background: cadetblue;
-  width: 100%;
+  width: 100px;
   height: 100px;
 }
 .box4  {
   background: coral;
-  width: 100%;
+  width: 100px;
   height: 100px;
 }
 .box5  {
   background: crimson;
-  width: 100%;
+  width: 100px;
   height: 100px;
 
 }
 .box6  {
   background: forestgreen;
-  width: 100%;
+  width: 100px;
   height: 100px;
 }
 .box7  {
   background: darkorchid;
-  width: 100%;
+  width: 100px;
   height: 100px;
 }
 .box8  {
   background: hotpink;
-  width: 100%;
+  width: 100px;
   height: 100px;
 }
 .box9  {
   background: indigo;
-   width: 100%;
+   width: 100px;
   height: 100px;
 }
 .box10  {
   background: dodgerblue;
-  width: 100%;
+  width: 100px;
   height: 100px;
   
 }
@@ -180,7 +188,6 @@ nav a {
 }
 
 .middle-content .boxes .box{
-    width: 12.5%;
     margin: 20px 2.5%;
     color: white;
     display: flex;
